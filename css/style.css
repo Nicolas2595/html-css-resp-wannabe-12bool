@@ -33,7 +33,7 @@ p {
 img {
     height: 150px;
     width: auto;
-    margin-left: 50px;
+    margin-left: 15%;
     margin-top: 20px;
 }
 
@@ -45,12 +45,12 @@ main {
 
 .logo > img {
     height: 150px;
-    margin-left: 200px;
+    margin-left: 50%;
 }
 
 .logo1 > img {
     height: 150px;
-    margin-left: 115px;
+    margin-left: 35%;
 }
 
 /* Section */
@@ -64,7 +64,21 @@ section {
     background-color: cornflowerblue;
     padding: 10px;
     height: 180px;
-    margin-left: 540px;
+    margin-left: 43%;
     /* margin-top: 50px; */
 }
 
+@media  screen and (max-width: 767px) {
+    section{
+    background-color:  #f2f2cd;
+    }
+
+    main {
+        background-color: white;
+    }
+
+    header {
+        background-color: #f2f2cd;
+    }
+    
+}
