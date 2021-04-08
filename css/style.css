@@ -59,6 +59,10 @@ section {
     margin-top: 20px;
 }
 
+hr {
+    border: 1px solid grey;
+}
+
 .image > img {
     border-radius: 50%;
     background-color: cornflowerblue;
